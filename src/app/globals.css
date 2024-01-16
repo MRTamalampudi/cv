@@ -78,3 +78,23 @@
 .print-force-new-page {
   page-break-before: always;
 }
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  line-height: normal;
+  text-rendering: optimizeLegibility;
+  text-decoration: solid rgb(60, 65, 73);
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-feature-settings: normal;
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
+
+.f-13{
+  font-size: 13px;
+  font-weight: 450;
+  color: rgb(107 114 128);
+}

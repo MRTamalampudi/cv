@@ -74,10 +74,13 @@ export const RESUME_DATA = {
   ],
   skills: [
     "Java",
+    "SpringBoot",
     "JavaScript",
     "TypeScript",
-    "React/Angular",
-    "SpringBoot",
+    "Webpack",
+    "React",
+    "Angular",
+    "@tanstack/[react-query,react-table]",
     "MySQL",
   ],
   projects: [

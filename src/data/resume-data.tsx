@@ -80,8 +80,13 @@ export const RESUME_DATA = {
     "Webpack",
     "React",
     "Angular",
-    "@tanstack/[react-query,react-table]",
+    "@tanstack/[react-query,react-table,react-router]",
     "MySQL",
+    "Docker",
+    "Maven",
+    "JPA/Hibernate",
+    "Figma",
+    "Linux"
   ],
   projects: [
     {
